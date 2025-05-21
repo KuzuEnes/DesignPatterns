@@ -24,5 +24,5 @@ print(hayvan2.konus())  # Hav hav
 
 #Alt sınıfların hangi nesneyi oluşturacağına karar vermesini sağlar; nesne oluşturma süreci bir metotla soyutlanır.
 #hayvan_olustur() fonksiyonu bir factory method gibi çalışarak doğru sınıfın nesnesini üretir.
-
+#Bu desen sayesinde nesne oluşturma işlemi koddan soyutlanır ve genişletilebilir hâle gelir.
 
