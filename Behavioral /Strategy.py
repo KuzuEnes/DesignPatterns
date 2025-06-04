@@ -40,7 +40,6 @@ cart2 = ShoppingCart(CryptoPayment())
 cart2.add_item(200)
 cart2.checkout()   # 200 TL kripto para ile ödendi.
 
-#PaymentStrategy: Ortak arayüz (interface).
 #CreditCardPayment, PayPalPayment, CryptoPayment: Farklı stratejiler.
 #ShoppingCart: Stratejiyi kullanarak işlemi gerçekleştirir. Stratejiyi çalışma zamanında değiştirebiliriz.
 
